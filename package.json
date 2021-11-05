@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/EmperorBob7/WorldTrigger-RPG#readme",
   "dependencies": {
+    "better-sqlite3": "^7.4.4",
     "dotenv": "^10.0.0",
     "express": "^4.17.1"
   }
