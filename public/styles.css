@@ -11,11 +11,12 @@ body {
 }
 nav {
     background-color:rgb(40, 42, 46);
-    color:#00bd8b;
+    color:rgb(75, 224, 167);
     height:10vh;
     margin-bottom: 5vh;
+    margin-top: 2vh;
     font-size: 125%;
-    width: 95vw;
+    width: 98vw;
     display: inline-block;
 }
 h1 {
@@ -48,15 +49,15 @@ button:active {
 }
 a {
     text-decoration: none;
-    color:cyan;
+    color:rgb(73, 226, 226);
 }
 main {
     background-color: rgb(40, 42, 46);
     padding: 10px;
-    width: 95vw;
+    width: 98vw;
     box-sizing: border-box;
     display: inline-block;
-    min-height: 80vh;
+    min-height: 81vh;
 }
 p {
     margin: 10px;
