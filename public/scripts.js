@@ -8,7 +8,10 @@ async function create() {
         }
     }
     let results = await fetch("/create", options);
-    console.log(await results.json());
+    let res = await results.json();
+    if(res.success) {
+        window.location.href = "/servers/" + name;
+    }
 }
 async function join() {
     let name = prompt("Enter Room Code");
